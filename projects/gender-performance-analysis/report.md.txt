@@ -1,0 +1,3 @@
+# Gender Performance Analysis Report
+
+This report summarizes findings from the gender-based performance analysis, including data cleaning, exploration, and visualization.
