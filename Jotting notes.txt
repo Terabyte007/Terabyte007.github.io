@@ -1,0 +1,47 @@
+🛠 Essential Skills for Data Analytics (Entry level)
+
+🧮 1. SQL (Structured Query Language)
+Ability to write queries to extract, filter, and aggregate data.
+
+Familiar with SELECT, JOIN, GROUP BY, WHERE, CASE WHEN, and subqueries.
+
+Experience with platforms like MySQL, PostgreSQL, SQL Server, or BigQuery.
+
+📊 2. Microsoft Excel
+Proficiency in formulas, pivot tables, VLOOKUP/XLOOKUP, charts.
+
+Data cleaning, filtering, sorting, and conditional formatting.
+
+Optional but useful: basic macros or VBA knowledge.
+
+📈 3. Statistics
+Understanding of descriptive statistics (mean, median, mode, variance).
+
+Basics of inferential statistics (hypothesis testing, confidence intervals).
+
+Probability concepts and distributions.
+
+📉 4. Data Visualization
+Ability to create clear, insightful charts and dashboards.
+
+Familiar with tools like:
+
+Excel
+
+Tableau / Power BI
+
+Python (Matplotlib/Seaborn) or R (ggplot2)
+
+🗣 5. Presentation & Communication Skills
+Translate data findings into non-technical, actionable insights.
+
+Comfortable with written reports and verbal presentations.
+
+Tailor messages to stakeholders with different levels of data fluency.
+
+🧠 6. Critical Thinking
+Question assumptions and probe deeper into data anomalies.
+
+Understand the business context and ask "why" and "so what".
+
+Propose data-driven solutions and improvements.
