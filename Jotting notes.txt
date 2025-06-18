@@ -45,3 +45,26 @@ Question assumptions and probe deeper into data anomalies.
 Understand the business context and ask "why" and "so what".
 
 Propose data-driven solutions and improvements.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Descriptive Analytics – This focuses on what happened in the past. It involves summarizing historical data to identify patterns and trends. Businesses use descriptive analytics in reports and dashboards to analyze past sales, customer behavior, or financial performance.
+
+Diagnostic Analytics – This answers why something happened. It goes a step further than descriptive analytics by identifying relationships and root causes. Techniques like data mining and correlation analysis help organizations understand the impact of different factors on outcomes.
+
+Predictive Analytics – This is about what could happen in the future. Using statistical models and machine learning, predictive analytics forecasts future trends based on historical data. It’s widely used in fields like healthcare, finance, and marketing for risk assessment and customer behavior predictions.
+
+Prescriptive Analytics – This helps determine what should be done next. It recommends actions by analyzing possible outcomes of different decisions. Prescriptive analytics is used in areas like supply chain management, personalized marketing, and healthcare treatment planning.
+
+Each type builds on the previous one, making data more valuable and actionable.
+
+Here’s how each type of data analytics could be applied in Nigeria:
+
+Descriptive Analytics – In the banking sector, Nigerian banks use descriptive analytics to assess past transaction trends, customer demographics, and spending patterns. For example, GTBank might analyze account holders’ withdrawal habits to understand peak transaction times.
+
+Diagnostic Analytics – In agriculture, if a cassava farm in Oyo State experienced lower yields than expected, diagnostic analytics could help identify why. Factors like rainfall patterns, soil conditions, and pest outbreaks would be examined to find the root cause of the decline.
+
+Predictive Analytics – In transportation, ride-hailing apps like Bolt and Uber use predictive analytics to forecast demand. For instance, they might predict high ride requests in Lagos on a Friday night based on previous booking trends, helping drivers position themselves in high-demand areas.
+
+Prescriptive Analytics – In healthcare, hospitals like LUTH (Lagos University Teaching Hospital) can use prescriptive analytics to suggest the best treatment plans for malaria patients. By analyzing patient history, symptoms, and medication effectiveness, doctors can receive AI-assisted recommendations for personalized treatments.
+
+Each type of analytics plays a huge role in decision-making across industries!
