@@ -187,5 +187,5 @@ Check out more of my work at 👉 [terabyte007.github.io](https://terabyte007.gi
 
 ---
 
-> “In God we trust. All others must bring data.” – W. Edwards Deming
-> “Good data analysis tells a story. Great data analysis answers a question that matters.”
+- > “In God we trust. All others must bring data.” – W. Edwards Deming.
+- > “Good data analysis tells a story. Great data analysis answers a question that matters.”
