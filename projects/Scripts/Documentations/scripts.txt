@@ -1,0 +1,73 @@
+scripts:
+to effect add and delete: script for deleting courses
+for handling dept_course_reg_map
+
+programme_id_fk = 13
+outlier
+
+session admitted not same as the session_id in transaction
+how do we get the session admitted for freshers? the current session should be session_admitted
+
+session admitted = session inputted if level is in (100, 200_DE, 300_DE)
+for tbl_students_master_test, check if the matric number exist, if it does, don't update, if it does not, insert records (done)
+
+I want it to just ignore duplicate entries for the key and not log it in the csv file (done)
+
+If it is a case of duplicate entry for key in insertion to tbl_students_transactions_test, no need to log it in the excel file, it should just ignore (done)
+
+
+Blank course_dept
+0 course units
+
+
+
+KEEP
+
+It should insert distinct records into the tbl_course_registered_test table with columns:
+
+id	student_id_fk	student_dept_id_fk	course_id_fk	course_dept_id_fk	course_faculty_id_fk	course_code	course_units	level_id_fk	semester_id_fk	status	date_registered	session_id_fk	session	ca	exam	result	old_result	new_result	ca_remark	exam_remark	result_remark	grade_id_fk	gp7	gp5	gp4	semester	last_update_batch	is_approved	is_unreg	key	is_new	blank_first_semester
+
+
+It should check the tbl_course_registered_test table to see if the column named 'key' exists (this will be in the form key = CONCAT(student_id_fk,':',course_id_fk,':',session_id_fk)), if it does, it should not modify the records but if it does not, it should insert the records to the tbl_course_registered_test table.
+
+the student_id_fk = tbl_students_master_test.matricNo,
+student_dept_id_fk = tbl_students_master_test.department_id_fk,
+course_id_fk = students_courses.course_id,
+course_dept_id_fk = (join students_courses with tbl_departments on students_courses.course_department = tbl_departments.title and set course_dept_id_fk = tbl_departments.id),
+course_faculty_id_fk = (join students_courses with tbl_departments on students_courses.course_department = tbl_departments.title and set course_faculty_id_fk = tbl_departments.faculty_id_fk),
+course_code = students_courses.course_id,
+course_units = students_courses.course_unit,
+level_id_fk=students_courses.level_id,
+semester_id_fk = students_courses.semester_id,
+status=students_courses.course_status,
+date_registered = datetime of the update in the form '2025-03-26 09:49:57',
+session_id_fk = students_courses.result_session_id,
+session=students_courses.result_session_id,
+ca,	exam,	result,	old_result,	new_result,	ca_remark,	exam_remark,	result_remark are all blank,
+grade_id_fk,	gp7,	gp5,	gp4 all take value of 0,
+semester = students_courses.semester_id,
+last_update_batch = blank,
+is_approved,	is_unreg = 0,
+key = CONCAT(student_id_fk,':',course_id_fk,':',session_id_fk),
+is_new,	blank_first_semester both take value of 0
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+course_dept_id_fk = (join students_courses with tbl_courses on students_courses.course_code = tbl_courses.code and set course_dept_id_fk = tbl_courses.dept_id_fk),
+course_faculty_id_fk = (join students_courses with tbl_departments on students_courses.course_department = tbl_departments.title and set course_faculty_id_fk = tbl_departments.faculty_id_fk), for where the students_courses.course_department has no value, use the tbl_course_registered_test.course_dept_id_fk to find the faculty_id in tbl_departments with both tables having tbl_course_registered_test.course_dept_id_fk = tbl_departments.id for joins
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+this block inserts into the tbl_course_registered_test table but there are issues where the course_department are blanks in the students_courses table. I want to make a modification to this block while maintating other aspects pf this block cos they are working fine. Modifications are:
+
+1. course_dept_id_fk = (join students_courses with tbl_courses on students_courses.course_code = tbl_courses.code and set course_dept_id_fk = tbl_courses.dept_id_fk), 
+2. course_faculty_id_fk = (join students_courses with tbl_departments on students_courses.course_department = tbl_departments.title and set course_faculty_id_fk = tbl_departments.faculty_id_fk), for where the students_courses.course_department has no value, use the tbl_course_registered_test.course_dept_id_fk to find the faculty_id in tbl_departments with both tables having tbl_course_registered_test.course_dept_id_fk = tbl_departments.id for joins 
+
+3. where there are no 0 values for units, it should look into the tbl_courses table using students_courses.course_code = tbl_courses.code and use the tbl_courses.unit there and no need to log it in the csv if done.
+
+4. For a case of duplicate records, eg, cases similar to 'IntegrityError: (1062, "Duplicate entry '27:1297:16' for key 'key'")', just ignore it and do not log it in the csv file
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+for cases where the student has blank or incorrect values for faculty in the excel file, use the Student Department to get the faculty by joining the students_courses table with tbl departments on students_courses.Student_department = tbl_departments.id and fill the student_faculty
+
+python3 stud_creation.py

@@ -1,0 +1,112 @@
+prog_id,dept_id_fk,description,dept_title,opp
+1,1,B.Sc. (Agricultural Economics),Agricultural Economics,Remove
+2,2,B.Agric (Agricultural Extension and Rural Development),Agricultural Extension and Rural Development,Remove
+3,3,B.SC. (AGRICULTURE),Agriculture,Remove
+4,4,B.Sc. (Agronomy),Agronomy,Remove
+5,5,B.Agric (Animal Science),Animal Science,Remove
+105,5,B.Agric (Agricultural Biochemistry and Nutrition),Animal Science,Remove
+6,7,B.Sc. (Crop Protection and Environmental Biology),Crop Protection and Environmental Biology,Remove
+7,9,B.A. (ANTHROPOLOGY),Anthropology(Arts),Remove
+8,9,B.A. (CULTURAL ANTHROPOLOGY),Anthropology(Arts),Remove
+9,10,B.A. (ARABIC & ISLAMIC STUDIES,Arabic and Islamic Studies,Remove
+10,10,B.A. (Islamic Studies),Arabic and Islamic Studies,Remove
+12,11,B.A. (ARCHAEOLOGY),Archaeology(Arts),Remove
+15,12,B.A. (COMM. & LANG. ARTS),Communication and Language Arts,Remove
+16,13,B.A. (ENGLISH),English,Remove
+17,14,B.A. (FRENCH),European Studies,Remove
+18,14,B.A. (GERMAN),European Studies,Remove
+19,14,B.A. (GERMAN/FRENCH),European Studies,Remove
+20,14,B.A. (RUSSIAN),European Studies,Remove
+21,14,B.A. (RUSSIAN/FRENCH),European Studies,Remove
+153,14,Russia/German,European Studies,Remove
+22,15,B.A. (HISTORY),History,Remove
+23,16,B.A. (LINGUISTICS),Linguistics and African Languages,Remove
+24,16,B.A. (YORUBA),Linguistics and African Languages,Remove
+129,16,Igbo,Linguistics and African Languages,Remove
+144,16,Linguistics/Yoruba,Linguistics and African Languages,Remove
+145,16,Linguistics/French,Linguistics and African Languages,Remove
+146,16,Linguistics/German,Linguistics and African Languages,Remove
+156,16,Igbo with Lingustics,Linguistics and African Languages,Remove
+25,17,B.A. (MUSIC),Music,Remove
+26,18,B.A. (PHILOSOPHY),Philosophy,Remove
+141,18,Philosophy/Political Science,Philosophy,Remove
+151,18,Philosophy/Classics,Philosophy,Remove
+27,19,B.A. (RELIGIOUS STUDIES),Religious Studies,Remove
+28,20,B.A. (THEATRE ARTS),Theatre Arts,Remove
+13,21,B.A. CLASSICS (combined),Classical Studies,Remove
+14,21,B.A. CLASSICS (LATIN),Classical Studies,Remove
+30,22,B. (MLS),Biomedical Laboratory Science,Remove
+29,23,B.SC. (BIOCHEMISTRY),Biochemistry,Remove
+31,24,B.SC. (PHYSIOLOGY),Physiology,Remove
+34,25,B.N.Sc. (Nursing),Nursing,Remove
+36,26,B.Physiotherapy Clinicals,Physiotherapy,Remove
+37,26,B.Physiotherapy Pre-Clinicals,Physiotherapy,Remove
+32,27,M.B.B.S (Clinicals),Medicine and Surgery,Remove
+33,27,M.B.B.S. (Pre-Clinicals),Medicine and Surgery,Remove
+38,28,B.D.S. (Clinicals),Dental Surgery,Remove
+39,28,B.D.S. (Pre-Clinicals),Dental Surgery,Remove
+40,29,B.SC. (ECONOMICS),Economics,Remove
+67,30,B.Ed. (Pre Primary Education),Teacher Education,Remove
+41,31,B.ED. (ADULT EDUCATION),Adult Education,Remove
+54,32,B.ED. (EDUCATIONAL MANAGEMENT),Educational Management,Remove
+110,32,B.Ed (Business Education),Educational Management,Remove
+55,33,B.ED. (Counselling and Human Development Studies),Counselling and Human Development Studies,Remove
+56,34,B.ED. (HEALTH EDUCATION),Human Kinetics and Health Education,Remove
+57,34,B.ED. (HUMAN KINETICS),Human Kinetics and Health Education,Remove
+58,35,BLIS (Bachelor of Library and Information Studies),"Library, Archival and Information Studies",Remove
+63,36,B.ED. (SPECIAL EDUCATION),Special Education,Remove
+71,37,L.L.B. LAW,Law,Remove
+72,38,B.PHARM (PHARMACY),Pharmacy,Remove
+73,39,B.EHS,Environmental Health Science,Remove
+74,40,B.SC. (HUMAN NUTRITION),Human Nutrition and Dietetics,Remove
+76,42,B.Sc. (Forest Production and Products),Forest Production and Products,Remove
+78,43,B.Sc. (Wildlife),Wildlife and Ecotourism Management,Remove
+77,44,B.Sc. (Social & Environmental Forestry),Social and Environmental Forestry,Remove
+79,45,B.SC. (ANTHROPOLOGY),Anthropology(Science),Remove
+80,46,B.SC. (ARCHAEOLOGY),Archaeology(Science),Remove
+81,47,B.SC. (BOTANY),Botany,Remove
+82,48,B.SC. (CHEMISTRY),Chemistry,Remove
+83,48,B.SC. (Industrial Chemistry),Chemistry,Remove
+84,49,B.SC. (COMPUTER SCIENCE),Computer Science,Remove
+85,50,B.SC. (GEOGRAPHY) (Science),Geography (Science),Remove
+86,51,B.SC. (GEOLOGY),Geology,Remove
+87,52,B.SC. (MATHEMATICS),Mathematics,Remove
+88,53,B.SC. (MICROBIOLOGY),Microbiology,Remove
+89,54,B.SC. (PHYSICS),Physics,Remove
+90,55,B.SC. (STATISTICS),Statistics,Remove
+91,56,B.SC. (ZOOLOGY),Zoology,Remove
+92,57,B.SC. (AGRIC. ENGINEERING),Agricultural and Environmental Engineering,Remove
+93,58,B.SC. (CIVIL ENGINEERING),Civil Engineering,Remove
+94,59,B.SC. (ELECT/ELECT ENGINEERING),Electrical and Electronics Engineering,Remove
+95,60,B.SC. (FOOD TECHNOLOGY),Food Technology,Remove
+96,61,B.SC. (INDUSTRIAL ENGINEERING),Industrial and Production Engineering,Remove
+97,62,B.SC. (MECHANICAL ENGINEERING),Mechanical Engineering,Remove
+98,63,B.SC. (PETROLEUM ENGINEERING),Petroleum Engineering,Remove
+100,64,B.SC. (GEOGRAPHY) (Social Science),Geography (Social Sciences),Remove
+101,65,B.SC. (POLITICAL SCIENCE),Political Science,Remove
+102,66,B.SC. (PSYCHOLOGY),Psychology,Remove
+103,67,B.SC. (SOCIOLOGY),Sociology,Remove
+104,68,DVM (VETERINARY MEDICINE),Veterinary Medicine,Remove
+99,70,B.SC. (WOOD PRODUCTS ENGINEERING),Wood Products Engineering,Remove
+48,71,B.ED (Geography),Arts and Social Sciences Education,Remove
+49,71,B.ED (History),Arts and Social Sciences Education,Remove
+51,71,B.ED (Political Science),Arts and Social Sciences Education,Remove
+125,71,B.A. Ed. / B.Sc. Ed.(Arts & Social Sciences Education),Arts and Social Sciences Education,Remove
+126,72,Science and Technology Education,Science and Technology Education,Remove
+53,73,B.ED(Early Childhood Education),Early Childhood and Educational Foundations,Remove
+75,75,B. Fisheries Management,Aquaculture and Fisheries Management,Remove
+68,76,B.Sc. (Architecture ),Architecture,Remove
+123,80,Anthropology,Archaeology and Anthropology (Science),Remove
+127,87,Human Kinetics,Human Kinetics,Remove
+128,88,Health Education,Health Education,Remove
+70,89,B.Sc. (Urban and Regional Planning),Urban and Regional Planning,Remove
+69,90,B.Sc. (Estate Management),Estate Management,Remove
+111,91,B.Sc(Crop and Horticultural Sciences),Crop and Horticultural Sciences,Remove
+112,92,B.Sc(Soil Resources Management),Soil Resources Management,Remove
+114,93,B.Sc. (SDU),Software Development,Remove
+115,93,B.Sc. (MIS),Software Development,Remove
+142,94,Quantity Surveying,Quantity Surveying,Remove
+147,95,Accounting,Accounting,Remove
+150,96,Marketing and Consumer Studies,Marketing and Consumer Studies,Remove
+148,97,Banking and Finance,Banking and Finance,Remove
+149,98,Automotive Engineering,Automotive Engineering,Remove
